@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Deadpool Movie Review</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+        <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+        <style>
+            body{
+                background-color: red;
+                background: linear-gradient(to right, red, black);
+                color: white;
+                text-align: center;
+            }
+            .jumbotron{
+                background-color: red;-
+            }
+        </style>
+    </head>
+    
+    <body>
+        <div class="container">
+            <div class="jumbotron">
+                <h1>Deadpool</h1>
+            </div>
+        </div>
+        
+        <div class="container">
+            <ul class="nav nav-tabs">
+                <li class="active"><a data-toggle="tab" href="#home">Home</a></li>
+                <li><a data-toggle="tab" href="#menu1">Plot</a></li>
+                <li><a data-toggle="tab" href="#menu2">Comedy</a></li>
+                <li><a data-toggle="tab" href="#menu3">Review</a></li>
+            </ul>
+
+            <div class="tab-content">
+                <div id="home" class="tab-pane fade in active">
+                    <h3>Details</h3>
+                    <p>The movie "Deadpool" was relieced on Febuary 12, 2016. It is rates R. Ryan Reynolds stars as Deadpool.
+                    <br>
+                    <img src="http://www.foxmovies.com/movies/deadpool/download-poster/464" height="40%" width="40%"></p>
+                </div>
+                <div id="menu1" class="tab-pane fade">
+                    <h3>Plot</h3>
+                    <h1>WARNING! SPOILERS AHEAD!</h1>
+                    <p>The movie fallows the mercinary Wade Wilson. After realising he is infected with cancer, an misterios group tells him they can cure it. Of coarse, he accepts their offer. After doing several experiments, they finally get Wade to mutate. He gains super human abilities that allow his body to rapidly reproduce cells, so as long as he has one cell left, he can grow back his limbs and organs rapidly. After beaking out of the lab, he hunts Francis down for revenge, After Francis kidnaps his wife, he becomes ferious. He unites with the X-Men to take down Francis and his army.</p>
+                    <br>
+                    <img src="http://www.cinemablend.com/images/news/111797/_1455219484.jpg">
+                </div>
+                <div id="menu2" class="tab-pane fade">
+                    <h3>Comedy</h3>
+                    <p>This movie is insanely funny. Wade makes a joke in almost every scene. The jokes are just cheesy, stupid jokes. The jokes were very funny. Deadpool is the funniest movie I have ever seen.</p>
+                    <br>
+                    <img src="https://media.giphy.com/media/m7Xd1fh6x89NK/giphy.gif">
+                </div>
+                <div id="menu3" class="tab-pane fade">
+                    <h3>Review</h3>
+                    <p>I would recomend this movie to anyone old enough to see Deadpool. It has great picture, funny jokes, and a great plot. I would rate the movie 10/10, any day. Of course, I would not recommend anyone not mature enough to see the movie because of its rating. Overall, amazing movie.</p>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
